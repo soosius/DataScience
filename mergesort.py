@@ -45,6 +45,7 @@ my_list = [54, 26, 93, 17, 77, 31, 44, 55, 20]
 x = range(len(my_list))
 plt.plot(x, my_list)
 plt.show()
+plt.xticks(ticks=[20,40,60,80])
 mergeSort(my_list)
 x = range(len(my_list))
 plt.plot(x, my_list)
